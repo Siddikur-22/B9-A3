@@ -13,561 +13,715 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous"
-     referrerpolicy="no-referrer" />
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                'color': '#FF4240;',
-                'p-font':'#13131899',
-                'bg-color':'#131318;'
-                
-              }
-             
+            theme: {
+                extend: {
+                    colors: {
+                        'color': '#FF4240;',
+                        'p-font': '#13131899',
+                        'bg-color': '#131318;'
+
+                    }
+
+                }
             }
-          }
         }
-      </script>
+    </script>
     <style>
-        .font-family{
+        .font-family {
             font-family: 'Manrope', sans-serif;
         }
     </style>
 </head>
 
 <body class="font-family">
-   <header>
-     <!-- navber section -->
-     <section>
-        <div class="container mx-auto lg:px-20 lg:py-10">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                     
-                      
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost lg:text-3xl text-xl font-extrabold ">Hockey <span class="text-red-600">'</span>s</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li class="text-color"><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn bg-color text-white lg:text-xl">Get Ticket</a>
-                </div>
-              </div>
-        </div>
-    </section>
-   </header>
-   <main>
-    <!-- section-1 -->
-    <section>
-        <div class="container mx-auto px-20 ">
-            <div class="carousel lg:w-full lg:h-[80vh] w-[80vw] h-[50vh] ">
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img src="Images/1.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img src="Images/2.jpg" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img src="Images/3.jpg" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a> 
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide4" class="carousel-item relative w-full">
-                  <img src="Images/4.jpg" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a> 
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-              </div>
-        </div>
-    </section>
-    <!-- section-2 -->
-    <section>
-        <div class="container mx-auto px-20 py-10">
-          <div class="text-center mx-auto mt-10">
-            <h1 class="lg:text-3xl text-xl font-extrabold lg:font-extrabold font-base mb-5">Professional Hockeys Club</h1>
-            <p class="lg:w-2/3  mx-auto text-p-font">The Glacier Guardians,established in 1965,stand as a testament to the enduring spirit of hockey. Hailing form a region known for its icy landscape. </p>
-          </div>
-        </div>
-    </section>
-    <!-- section-3 -->
-    <section>
-        <div class="container mx-auto  px-20 py-10">
-            <div>
-                <div class="grid lg:grid-cols-4 grid-cols-1 gap-10 mx-auto items-center">
-                    <div class=" text-center align-middle">
-                        <div class="radial-progress text-red-500 mb-4" style="--value:70;" role="progressbar">77%</div>
-                        <h2 class="text-xl font-semibold mb-4">Prayer Facility</h2>
-                        <p class=" text-center mx-auto">The Glacier Guardians,established in 1965,stand as a testament to the enduring.</p>
-                    </div>
-                   
-                    <div class=" text-center align-middle">
-                        <div class="radial-progress text-green-500 mb-4" style="--value:70;" role="progressbar">77%</div>
-                        <h2 class="text-xl font-semibold mb-4">Prayer Facility</h2>
-                        <p class=" text-center mx-auto">The Glacier Guardians,established in 1965,stand as a testament to the enduring.</p>
-                    </div>
-                   
-                    <div class=" text-center align-middle">
-                        <div class="radial-progress text-yellow-500 mb-4" style="--value:70;" role="progressbar">77%</div>
-                        <h2 class="text-xl font-semibold mb-4">Prayer Facility</h2>
-                        <p class=" text-center mx-auto">The Glacier Guardians,established in 1965,stand as a testament to the enduring.</p>
-                    </div>
-                   
-                    <div class=" text-center align-middle">
-                        <div class="radial-progress text-blue-500 mb-4" style="--value:70;" role="progressbar">77%</div>
-                        <h2 class="text-xl font-semibold mb-4">Prayer Facility</h2>
-                        <p class=" text-center mx-auto">The Glacier Guardians,established in 1965,stand as a testament to the enduring.</p>
-                    </div>
-                   
-                  
-                </div>
-            </div>
+    <header>
+        <!-- navber section -->
+        <section>
+            <div class="container mx-auto lg:px-20 lg:py-10">
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
 
-        </div>
-    </section>
-     <!-- section-4 -->
-     <section>
-        <div class="container mx-auto px-20 py-10">
-            <div class="text-center mx-auto mt-10">
-              <h1 class="lg:text-3xl text-xl font-extrabold lg:font-extrabold font-base mb-5">Program Sections </h1>
-              <p class="lg:w-2/3  mx-auto text-p-font">The Glacier Guardians,established in 1965,stand as a testament to the enduring spirit of hockey. Hailing form a region known for its icy landscape. </p>
-            </div>
-          </div>
-     </section>
-     <!-- section 5 বা কি আছে -->
-     <section>
-        <div class="container mx-auto px-20 py-10">
-            <div>1
-                <div class="img">
-                    
+
+                                <li><a>Item 3</a></li>
+                            </ul>
+                        </div>
+                        <a class="btn btn-ghost lg:text-3xl text-xl font-extrabold ">Hockey <span
+                                class="text-red-600">'</span>s</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li class="text-color"><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <a class="btn bg-color text-white lg:text-xl">Get Ticket</a>
+                    </div>
                 </div>
-                <div></div>
             </div>
-             2
-            <div>
-                
+        </section>
+    </header>
+    <main class="container mx-auto px-5 ">
+        <!-- section-1 -->
+        <section>
+            <div class="carousel w-full h-[200px] lg:h-[550px] rounded-2xl">
+                <div id="slide1"
+                    class="carousel-item relative w-full  bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/1.png')] bg-no-repeat bg-cover ">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2"
+                    class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/2.jpg')] bg-no-repeat bg-cover">
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3"
+                    class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/3.jpg')] bg-no-repeat bg-cover">
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4"
+                    class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/2.png')] bg-no-repeat bg-cover">
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
             </div>
-        </div>
-     </section>
-     <!-- section 6 -->
-     <section>
-        <div class="container mx-auto px-20 py-10">
-            <!-- ----1111111 -->
-          <div class="grid lg:ml-40 lg:gap-40 lg:flex">
+        </section>
+        <!-- section-2 -->
+        <section>
             <div>
-                <!-- card 1 start -->
-                <div class="lg:grid-cols-1 grid lg:flex gap-5">
-                   <div>
-                       <img src="Images/5.png" alt="">
-                   </div>
-                   <div >
-                       <div>
-                           <div>
-                               <div class="rating gap-2">
-                                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                   <a href="">5.0</a>
-                                   <div>
-                                       <i class="fa-regular fa-eye"></i>
-                                       <a href="">20</a>
-                                   </div>
-                                   <div>
-                                       <i class="fa-regular fa-heart"></i>
-                                       <a href="">300</a>
-                                   </div>
-                                 </div>
-                           </div>
-                       
-                       </div>
-                       <div>
-                           <h1 class="font-extrabold">World Cup Flags Football</h1>
-                           <p class="text-xs mt-1 text-p-font w-1/2">It seems like your question is a bit unclear, but I'll try to. provide some information  </p>
-                       </div>
-                       <div class="lg:flex mt-5 grid lg:gap-5">
-                           <h1 class="text-lg text-red-600  font-extrabold">Price - $22.00</h1>
-                           <div class="text-xs mt-1 flex">
-                            <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
-                            <p class="text-p-font">Delivery Fee : Free</p>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-               <!-- card 2 start -->
-               <div class="grid-cols-1grid lg:flex mt-10 gap-5">
-                   <div> 
-                       <img src="Images/7.png" alt="">
-                   </div>
-                   <div >
-                       <div>
-                           <div>
-                               <div class="rating gap-2">
-                                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                   <a href="">5.0</a>
-                                   <div>
-                                       <i class="fa-regular fa-eye"></i>
-                                       <a href="">20</a>
-                                   </div>
-                                   <div>
-                                       <i class="fa-regular fa-heart"></i>
-                                       <a href="">300</a>
-                                   </div>
-                                 </div>
-                           </div>
-                       
-                       </div>
-                       <div>
-                           <h1 class="font-extrabold">Cap For Hockeys</h1>
-                           <p class="text-xs mt-1 text-p-font w-1/2">It seems like your question is a bit unclear, but I'll try to. provide some information  </p>
-                       </div>
-                       <div class="lg:flex mt-5 grid lg:gap-5">
-                           <h1 class="text-red-600 font-extrabold">Price - $22.00</h1>
-                           <div class="text-xs mt-1 flex">
-                               <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
-                               <p class="text-p-font">Delivery Fee : Free</p>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-   
-               <!-- card 3 start -->
-               <div class="grid-cols-1 mt-10 grid lg:flex gap-5">
-                   <div>
-                       <img src="Images/9.png" alt="">
-                   </div>
-                   <div >
-                       <div>
-                           <div>
-                               <div class="rating gap-2">
-                                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                   <a href="">5.0</a>
-                                   <div>
-                                       <i class="fa-regular fa-eye"></i>
-                                       <a href="">20</a>
-                                   </div>
-                                   <div>
-                                       <i class="fa-regular fa-heart"></i>
-                                       <a href="">300</a>
-                                   </div>
-                                 </div>
-                           </div>
-                       
-                       </div>
-                       <div>
-                           <h1 class="font-extrabold">World Cup Flags Football</h1>
-                           <p class="text-xs mt-1  text-p-font w-1/2">It seems like your question is a bit unclear, but I'll try to. provide some information</p>
-                       </div>
-                       <div class="lg:flex mt-5 grid lg:gap-5">
-                           <h1 class="text-red-600 font-extrabold">Price - $22.00</h1>
-                           <div class="text-xs mt-1 flex">
-                               <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
-                               <p class="text-p-font">Delivery Fee : Free</p>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-               <!-- card 3 end -->
-              </div>
-              
-              <!-- -----2---- -->
-              <div>
-                  <div>
+                <div class="text-center mx-auto mt-20">
+                    <h1 class="lg:text-3xl text-xl font-extrabold lg:font-extrabold font-base mb-5">Professional Hockeys
+                        Club</h1>
+                    <p class="lg:w-2/3  mx-auto text-p-font">The Glacier Guardians,established in 1965,stand as a
+                        testament to the enduring spirit of hockey. Hailing form a region known for its icy landscape.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- section-3 -->
+        <section>
+            <div>
+                <div>
+                    <div class="grid lg:grid-cols-4 grid-cols-1 gap-10 mx-auto mb-20 mt-10 items-center">
+                        <div class=" text-center align-middle">
+                            <div class="radial-progress text-red-500 mb-4" style="--value:70;" role="progressbar">77%
+                            </div>
+                            <h2 class="text-xl font-semibold mb-4">Prayer Facility</h2>
+                            <p class=" text-center mx-auto">The Glacier Guardians,established in 1965,stand as a
+                                testament to the enduring.</p>
+                        </div>
+
+                        <div class=" text-center align-middle">
+                            <div class="radial-progress text-green-500 mb-4" style="--value:70;" role="progressbar">77%
+                            </div>
+                            <h2 class="text-xl font-semibold mb-4">Prayer Facility</h2>
+                            <p class=" text-center mx-auto">The Glacier Guardians,established in 1965,stand as a
+                                testament to the enduring.</p>
+                        </div>
+
+                        <div class=" text-center align-middle">
+                            <div class="radial-progress text-yellow-500 mb-4" style="--value:70;" role="progressbar">77%
+                            </div>
+                            <h2 class="text-xl font-semibold mb-4">Prayer Facility</h2>
+                            <p class=" text-center mx-auto">The Glacier Guardians,established in 1965,stand as a
+                                testament to the enduring.</p>
+                        </div>
+
+                        <div class=" text-center align-middle">
+                            <div class="radial-progress text-blue-500 mb-4" style="--value:70;" role="progressbar">77%
+                            </div>
+                            <h2 class="text-xl font-semibold mb-4">Prayer Facility</h2>
+                            <p class=" text-center mx-auto">The Glacier Guardians,established in 1965,stand as a
+                                testament to the enduring.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- section-4 -->
+        <section>
+            <div>
+                <div class="text-center mx-auto mb-10 mt-10">
+                    <h1 class="lg:text-3xl text-xl font-extrabold lg:font-extrabold font-base mb-5">Program Sections
+                    </h1>
+                    <p class="lg:w-2/3  mx-auto text-p-font">The Glacier Guardians,established in 1965,stand as a
+                        testament to the enduring spirit of hockey. Hailing form a region known for its icy landscape.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- section 5 -->
+        <section>
+            <div>
+                <div class="grid grid-cols-1 gap-6 mb-20 lg:grid-cols-2">
+                    <!-- --1st card -->
+                    <div
+                        class="lg:h-[330px] bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/2.png')] bg-no-repeat bg-cover rounded-2xl">
+                        <div class="pt-24 pb-10 px-10 text-white">
+                            <h3 class="text-3xl font-extrabold ">Junior Program</h3>
+                            <p class="text-p-font mt-4 mb-6 text-white w-2/3">It seems like your message is a bit brief, and I would
+                                appreciate more details to provide you with a more accurate and helpful response. If
+                                you're referring to a </p>
+                            <button class="btn text-white bg-[#FF4240] px-5 font-bold text-xl border-none">Register
+                                Now!</button>
+
+                        </div>
+                    </div>
+                    <!-- second card -->
+
+                    <div
+                        class="lg:h-[330px] bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/3.png')] bg-no-repeat bg-cover rounded-2xl">
+                        <div class="pt-24 pb-10 px-10  text-white">
+                            <h3 class="text-3xl font-extrabold">Teenager Program</h3>
+                            <p class="text-p-font mt-4 mb-6  text-white w-2/3">It seems like your message is a bit brief, and I would
+                                appreciate more details to provide you with a more accurate and helpful response. If
+                                you're referring to a </p>
+                            <button class="btn text-white bg-[#FF4240] px-5 font-bold text-xl border-none">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                    <!-- 3rd card -->
+                    <div
+                        class="lg:col-span-2 lg:h[450px] bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/3.png')] bg-no-repeat bg-cover rounded-2xl">
+                        <div class="pt-24 lg:pt-52 pb-10 px-10  text-white">
+                            <h3 class="text-3xl font-extrabold">Professional Program</h3>
+                            <p class="text-p-font font-medium mt-4 mb-6 w-1/3 text-white ">It seems like your message is a bit
+                                brief, and I would appreciate more details to provide you with a more accurate and
+                                helpful response. If you're referring to a </p>
+                            <button class="btn text-white bg-[#FF4240] px-5 font-bold text-xl border-none">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 6 -->
+        <section>
+            <div>
+                <!-- ----1111111 -->
+                <div class="grid grid-cols-2">
                     <div>
                         <!-- card 1 start -->
-                        <div class="grid-cols-1 grid lg:flex gap-5">
-                           <div>
-                               <img src="Images/6.png" alt="">
-                           </div>
-                           <div >
-                               <div>
-                                   <div>
-                                       <div class="rating gap-2">
-                                           <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                           <a href="">5.0</a>
-                                           <div>
-                                               <i class="fa-regular fa-eye"></i>
-                                               <a href="">20</a>
-                                           </div>
-                                           <div>
-                                               <i class="fa-regular fa-heart"></i>
-                                               <a href="">300</a>
-                                           </div>
-                                         </div>
-                                   </div>
-                               
-                               </div>
-                               <div>
-                                   <h1 class="font-extrabold">World Cup Flags Football</h1>
-                                   <p class="text-xs mt-1 text-p-font w-1/2">It seems like your question is a bit unclear, but I'll try to. provide some information  </p>
-                               </div>
-                               <div class="lg:flex mt-5 grid lg:gap-5">
-                                   <h1 class="text-lg text-red-600  font-extrabold">Price - $22.00</h1>
-                                   <div class="text-xs mt-1 flex">
-                                    <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
-                                    <p class="text-p-font">Delivery Fee : Free</p>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- card 2 start -->
-                       <div class="grid-cols-1 grid lg:flex mt-10 gap-5">
-                           <div> 
-                               <img src="Images/8.png" alt="">
-                           </div>
-                           <div >
-                               <div>
-                                   <div>
-                                       <div class="rating gap-2">
-                                           <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                           <a href="">5.0</a>
-                                           <div>
-                                               <i class="fa-regular fa-eye"></i>
-                                               <a href="">20</a>
-                                           </div>
-                                           <div>
-                                               <i class="fa-regular fa-heart"></i>
-                                               <a href="">300</a>
-                                           </div>
-                                         </div>
-                                   </div>
-                               
-                               </div>
-                               <div>
-                                   <h1 class="font-extrabold">Cap For Hockeys</h1>
-                                   <p class="text-xs mt-1 text-p-font w-1/2">It seems like your question is a bit unclear, but I'll try to. provide some information  </p>
-                               </div>
-                               <div class="lg:flex mt-5 grid lg:gap-5">
-                                   <h1 class="text-red-600 font-extrabold">Price - $22.00</h1>
-                                   <div class="text-xs mt-1 flex">
-                                       <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
-                                       <p class="text-p-font">Delivery Fee : Free</p>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-           
-                       <!-- card 3 start -->
-                       <div class="grid-cols-1 mt-10 grid lg:flex gap-5">
-                           <div>
-                               <img src="Images/10.png" alt="">
-                           </div>
-                           <div >
-                               <div>
-                                   <div>
-                                       <div class="rating gap-2">
-                                           <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                           <a href="">5.0</a>
-                                           <div>
-                                               <i class="fa-regular fa-eye"></i>
-                                               <a href="">20</a>
-                                           </div>
-                                           <div>
-                                               <i class="fa-regular fa-heart"></i>
-                                               <a href="">300</a>
-                                           </div>
-                                         </div>
-                                   </div>
-                               
-                               </div>
-                               <div>
-                                   <h1 class="font-extrabold">World Cup Flags Football</h1>
-                                   <p class="text-xs mt-1  text-p-font w-1/2">It seems like your question is a bit unclear, but I'll try to. provide some information</p>
-                               </div>
-                               <div class="lg:flex mt-5 grid lg:gap-5">
-                                   <h1 class="text-red-600 font-extrabold">Price - $22.00</h1>
-                                   <div class="text-xs mt-1 flex">
-                                       <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
-                                       <p class="text-p-font">Delivery Fee : Free</p>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- card 3 end -->
-                      </div>
-              </div>
+                        <div class="lg:grid-cols-1 grid lg:flex gap-5">
+                            <div>
+                                <img src="Images/5.png" alt="">
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div class="rating gap-2">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <a href="">5.0</a>
+                                            <div>
+                                                <i class="fa-regular fa-eye"></i>
+                                                <a href="">20</a>
+                                            </div>
+                                            <div>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <a href="">300</a>
+                                            </div>
+                                        </div>
+                                    </div>
 
-          </div>
-          
-        </div>
-     </section>
-     <!-- section-7-->
-     <section>
-        <div class="container mx-auto px-20 py-10">
-            <div class="text-center mx-auto mt-5 ">
-              <h1 class="lg:text-3xl text-xl font-extrabold lg:font-extrabold font-base mb-5">Clients Question</h1>
-              <p class="lg:w-2/3  mx-auto text-p-font">Certainly! if you provide more details or context about the clients question,I can tailor the response more preciesly .However heres a general three line response that can be adapted based.</p>
+                                </div>
+                                <div>
+                                    <h1 class="font-extrabold">World Cup Flags Football</h1>
+                                    <p class="text-xs mt-1 text-p-font w-1/2">It seems like your question is a bit
+                                        unclear, but I'll try to. provide some information </p>
+                                </div>
+                                <div class="lg:flex mt-5 grid lg:gap-5">
+                                    <h1 class="text-lg text-red-600  font-extrabold">Price - $22.00</h1>
+                                    <div class="text-xs mt-1 flex">
+                                        <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
+                                        <p class="text-p-font">Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 start -->
+                        <div class="grid-cols-1grid lg:flex mt-10 gap-5">
+                            <div>
+                                <img src="Images/7.png" alt="">
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div class="rating gap-2">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <a href="">5.0</a>
+                                            <div>
+                                                <i class="fa-regular fa-eye"></i>
+                                                <a href="">20</a>
+                                            </div>
+                                            <div>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <a href="">300</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <h1 class="font-extrabold">Cap For Hockeys</h1>
+                                    <p class="text-xs mt-1 text-p-font w-1/2">It seems like your question is a bit
+                                        unclear, but I'll try to. provide some information </p>
+                                </div>
+                                <div class="lg:flex mt-5 grid lg:gap-5">
+                                    <h1 class="text-red-600 font-extrabold">Price - $22.00</h1>
+                                    <div class="text-xs mt-1 flex">
+                                        <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
+                                        <p class="text-p-font">Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 3 start -->
+                        <div class="grid-cols-1 mt-10 grid lg:flex gap-5">
+                            <div>
+                                <img src="Images/9.png" alt="">
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div class="rating gap-2">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <a href="">5.0</a>
+                                            <div>
+                                                <i class="fa-regular fa-eye"></i>
+                                                <a href="">20</a>
+                                            </div>
+                                            <div>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <a href="">300</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <h1 class="font-extrabold">World Cup Flags Football</h1>
+                                    <p class="text-xs mt-1  text-p-font w-1/2">It seems like your question is a bit
+                                        unclear, but I'll try to. provide some information</p>
+                                </div>
+                                <div class="lg:flex mt-5 grid lg:gap-5">
+                                    <h1 class="text-red-600 font-extrabold">Price - $22.00</h1>
+                                    <div class="text-xs mt-1 flex">
+                                        <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
+                                        <p class="text-p-font">Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 end -->
+                    </div>
+
+                    <!-- -----2---- -->
+                    <div>
+                        <div>
+                            <div>
+                                <!-- card 1 start -->
+                                <div class="grid-cols-1 grid lg:flex gap-5">
+                                    <div>
+                                        <img src="Images/6.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div class="rating gap-2">
+                                                    <input type="radio" name="rating-2"
+                                                        class="mask mask-star-2 bg-orange-400" />
+                                                    <a href="">5.0</a>
+                                                    <div>
+                                                        <i class="fa-regular fa-eye"></i>
+                                                        <a href="">20</a>
+                                                    </div>
+                                                    <div>
+                                                        <i class="fa-regular fa-heart"></i>
+                                                        <a href="">300</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div>
+                                            <h1 class="font-extrabold">World Cup Flags Football</h1>
+                                            <p class="text-xs mt-1 text-p-font w-1/2">It seems like your question is a
+                                                bit unclear, but I'll try to. provide some information </p>
+                                        </div>
+                                        <div class="lg:flex mt-5 grid lg:gap-5">
+                                            <h1 class="text-lg text-red-600  font-extrabold">Price - $22.00</h1>
+                                            <div class="text-xs mt-1 flex">
+                                                <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
+                                                <p class="text-p-font">Delivery Fee : Free</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card 2 start -->
+                                <div class="grid-cols-1 grid lg:flex mt-10 gap-5">
+                                    <div>
+                                        <img src="Images/8.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div class="rating gap-2">
+                                                    <input type="radio" name="rating-2"
+                                                        class="mask mask-star-2 bg-orange-400" />
+                                                    <a href="">5.0</a>
+                                                    <div>
+                                                        <i class="fa-regular fa-eye"></i>
+                                                        <a href="">20</a>
+                                                    </div>
+                                                    <div>
+                                                        <i class="fa-regular fa-heart"></i>
+                                                        <a href="">300</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div>
+                                            <h1 class="font-extrabold">Cap For Hockeys</h1>
+                                            <p class="text-xs mt-1 text-p-font w-1/2">It seems like your question is a
+                                                bit unclear, but I'll try to. provide some information </p>
+                                        </div>
+                                        <div class="lg:flex mt-5 grid lg:gap-5">
+                                            <h1 class="text-red-600 font-extrabold">Price - $22.00</h1>
+                                            <div class="text-xs mt-1 flex">
+                                                <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
+                                                <p class="text-p-font">Delivery Fee : Free</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- card 3 start -->
+                                <div class="grid-cols-1 mt-10 grid lg:flex gap-5">
+                                    <div>
+                                        <img src="Images/10.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div class="rating gap-2">
+                                                    <input type="radio" name="rating-2"
+                                                        class="mask mask-star-2 bg-orange-400" />
+                                                    <a href="">5.0</a>
+                                                    <div>
+                                                        <i class="fa-regular fa-eye"></i>
+                                                        <a href="">20</a>
+                                                    </div>
+                                                    <div>
+                                                        <i class="fa-regular fa-heart"></i>
+                                                        <a href="">300</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div>
+                                            <h1 class="font-extrabold">World Cup Flags Football</h1>
+                                            <p class="text-xs mt-1  text-p-font w-1/2">It seems like your question is a
+                                                bit unclear, but I'll try to. provide some information</p>
+                                        </div>
+                                        <div class="lg:flex mt-5 grid lg:gap-5">
+                                            <h1 class="text-red-600 font-extrabold">Price - $22.00</h1>
+                                            <div class="text-xs mt-1 flex">
+                                                <i class="fa-solid fa-cart-shopping mt-1 mr-2"></i>
+                                                <p class="text-p-font">Delivery Fee : Free</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card 3 end -->
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+        </section>
+        <!-- section-7-->
+        <section>
+            <div>
+                <div class="text-center mx-auto mt-20 ">
+                    <h1 class="lg:text-3xl text-xl font-extrabold lg:font-extrabold font-base mb-5">Clients Question
+                    </h1>
+                    <p class="lg:w-2/3  mx-auto text-p-font">Certainly! if you provide more details or context about the
+                        clients question,I can tailor the response more preciesly .However heres a general three line
+                        response that can be adapted based.</p>
+                </div>
             </div>
-          </div>
-     </section>
-     <!-- section-8-->
-     <section>
-            <div class="container mx-auto px-20 py-10">
+        </section>
+        <!-- section-8-->
+        <section>
+            <div>
 
-                <div class="hero lg:min-h-screen ">
-                    <div class="hero-content flex-col  lg:flex-row ">
-                      <div class="grid-cols-1 mr-10 ">
-                        <img src="Images/11.png" class="max-w-sm  rounded-lg shadow-2xl" />
-                      </div>
-                      <div>
-                      
-                <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" checked="checked" /> 
-                    <div class="collapse-title text-xl font-medium">
-                        Our Equipment
+                <!-- <div class="hero min-h-screen ">
+                    <div class="hero-content flex"> -->
+                        <div class="flex flex-col lg:flex-row gap-5 mt-20">
+
+                            <div>
+                                
+                            <img src="Images/11.png" class=" shadow-2xl" />
+                               
+        
+                            </div>
+                            <div class="lg:flex-1">
+                                <div class="collapse collapse-plus bg-base-200">
+                                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                                    <div class="collapse-title text-xl font-medium">
+                                      Click to open this one and close others
+                                    </div>
+                                    <div class="collapse-content"> 
+                                      <p>hello</p>
+                                    </div>
+                                  </div>
+                                  <div class="collapse collapse-plus bg-base-200">
+                                    <input type="radio" name="my-accordion-3" /> 
+                                    <div class="collapse-title text-xl font-medium">
+                                      Click to open this one and close others
+                                    </div>
+                                    <div class="collapse-content"> 
+                                      <p>hello</p>
+                                    </div>
+                                  </div>
+                                  <div class="collapse collapse-plus bg-base-200">
+                                    <input type="radio" name="my-accordion-3" /> 
+                                    <div class="collapse-title text-xl font-medium">
+                                      Click to open this one and close others
+                                    </div>
+                                    <div class="collapse-content"> 
+                                      <p>hello</p>
+                                    </div>
+                                  </div>
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+
+
+
+                     
+
+
+
+                        <!-- <div>
+                            <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" checked="checked" />
+                                <div class="collapse-title text-xl font-medium">
+                                    Our Equipment
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-p-font">At our organization, we prioritize top-quality equipment to
+                                        ensure optimal performance. Our inventory boasts state-of-the-art machinery,
+                                        each piece meticulously selected to meet the highest industry standards.From
+                                        cutting-edge technology to durable tools, our equipment is a testament to our
+                                        commitment to efficiency and excellence.</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-medium">
+                                    Hockey Training
+                                </div>
+                                <div class="collapse-content">
+                                    <p>At our organization, we prioritize top-quality equipment to ensure optimal
+                                        performance. Our inventory boasts state-of-the-art machinery, each piece
+                                        meticulously selected to meet the highest industry standards.From cutting-edge
+                                        technology to durable tools, our equipment is a testament to our commitment to
+                                        efficiency and excellence. We invest in the latest innovations, empowering our
+                                        team to deliver exceptional results in every project.</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-medium">
+                                    Private Lessons
+                                </div>
+                                <div class="collapse-content">
+                                    <p>At our organization, we prioritize top-quality equipment to ensure optimal
+                                        performance. Our inventory boasts state-of-the-art machinery, each piece
+                                        meticulously selected to meet the highest industry standards.From cutting-edge
+                                        technology to durable tools, our equipment is a testament to our commitment to
+                                        efficiency and excellence. We invest in the latest innovations, empowering our
+                                        team to deliver exceptional results in every project.</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-medium">
+                                    Ski Touring
+                                </div>
+                                <div class="collapse-content">
+                                    <p>At our organization, we prioritize top-quality equipment to ensure optimal
+                                        performance. Our inventory boasts state-of-the-art machinery, each piece
+                                        meticulously selected to meet the highest industry standards.From cutting-edge
+                                        technology to durable tools, our equipment is a testament to our commitment to
+                                        efficiency and excellence. We invest in the latest innovations, empowering our
+                                        team to deliver exceptional results in every project.</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-medium">
+                                    Booking
+                                </div>
+                                <div class="collapse-content">
+                                    <p>At our organization, we prioritize top-quality equipment to ensure optimal
+                                        performance. Our inventory boasts state-of-the-art machinery, each piece
+                                        meticulously selected to meet the highest industry standards.From cutting-edge
+                                        technology to durable tools, our equipment is a testament to our commitment to
+                                        efficiency and excellence. We invest in the latest innovations, empowering our
+                                        team to deliver exceptional results in every project.</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-medium">
+                                    Pricings
+                                </div>
+                                <div class="collapse-content">
+                                    <p>At our organization, we prioritize top-quality equipment to ensure optimal
+                                        performance. Our inventory boasts state-of-the-art machinery, each piece
+                                        meticulously selected to meet the highest industry standards.From cutting-edge
+                                        technology to durable tools, our equipment is a testament to our commitment to
+                                        efficiency and excellence. We invest in the latest innovations, empowering our
+                                        team to deliver exceptional results in every project.</p>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+
                     </div>
-                    <div class="collapse-content"> 
-                        <p class="text-p-font">At our organization, we prioritize top-quality equipment to ensure optimal performance. Our inventory boasts state-of-the-art machinery, each piece meticulously selected to meet the highest industry standards.From cutting-edge technology to durable tools, our equipment is a testament to our commitment to efficiency and excellence.</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" /> 
-                    <div class="collapse-title text-xl font-medium">
-                        Hockey Training
-                    </div>
-                    <div class="collapse-content"> 
-                      <p>At our organization, we prioritize top-quality equipment to ensure optimal performance. Our inventory boasts state-of-the-art machinery, each piece meticulously selected to meet the highest industry standards.From cutting-edge technology to durable tools, our equipment is a testament to our commitment to efficiency and excellence. We invest in the latest innovations, empowering our team to deliver exceptional results in every project.</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" /> 
-                    <div class="collapse-title text-xl font-medium">
-                        Private Lessons
-                    </div>
-                    <div class="collapse-content"> 
-                        <p>At our organization, we prioritize top-quality equipment to ensure optimal performance. Our inventory boasts state-of-the-art machinery, each piece meticulously selected to meet the highest industry standards.From cutting-edge technology to durable tools, our equipment is a testament to our commitment to efficiency and excellence. We invest in the latest innovations, empowering our team to deliver exceptional results in every project.</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" /> 
-                    <div class="collapse-title text-xl font-medium">
-                        Ski Touring
-                    </div>
-                    <div class="collapse-content"> 
-                        <p>At our organization, we prioritize top-quality equipment to ensure optimal performance. Our inventory boasts state-of-the-art machinery, each piece meticulously selected to meet the highest industry standards.From cutting-edge technology to durable tools, our equipment is a testament to our commitment to efficiency and excellence. We invest in the latest innovations, empowering our team to deliver exceptional results in every project.</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" /> 
-                    <div class="collapse-title text-xl font-medium">
-                        Booking
-                    </div>
-                    <div class="collapse-content"> 
-                        <p>At our organization, we prioritize top-quality equipment to ensure optimal performance. Our inventory boasts state-of-the-art machinery, each piece meticulously selected to meet the highest industry standards.From cutting-edge technology to durable tools, our equipment is a testament to our commitment to efficiency and excellence. We invest in the latest innovations, empowering our team to deliver exceptional results in every project.</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" /> 
-                    <div class="collapse-title text-xl font-medium">
-                        Pricings
-                    </div>
-                    <div class="collapse-content"> 
-                        <p>At our organization, we prioritize top-quality equipment to ensure optimal performance. Our inventory boasts state-of-the-art machinery, each piece meticulously selected to meet the highest industry standards.From cutting-edge technology to durable tools, our equipment is a testament to our commitment to efficiency and excellence. We invest in the latest innovations, empowering our team to deliver exceptional results in every project.</p>
-                    </div>
-                  </div>
-                      </div>
-                    </div>
-                  </div>
+
+
+                </div>
 
 
             </div>
-     </section>
-     <!-- section-9-->
-     <section>
-            <div class="container mx-auto px-20 ">
+        </section>
+        <!-- section-9-->
+        <section>
+            <div>
                 <div class="">
-                    <div class="text-center mx-auto mt-10">
-                      <h1 class="lg:text-3xl text-xl font-extrabold lg:font-extrabold font-base mb-5">Get In Touch</h1>
-                      <p class="lg:w-2/3 mx-auto  text-p-font">Feel free to get in touch with us! Your questions, feedback, or inquiries are important to us. Contact us via email at [your@email.com] or give us a call at [your phone number]. We look forward to hearing from you! </p>
+                    <div class="text-center mx-auto mt-20">
+                        <h1 class="lg:text-3xl text-xl font-extrabold lg:font-extrabold font-base mb-5">Get In Touch
+                        </h1>
+                        <p class="lg:w-2/3 mx-auto  text-p-font">Feel free to get in touch with us! Your questions,
+                            feedback, or inquiries are important to us. Contact us via email at [your@email.com] or give
+                            us a call at [your phone number]. We look forward to hearing from you! </p>
                     </div>
-                  </div>
-            </div>
-     </section>
-     <!-- section 10 -->
-     <section>
-        <div  class="container mx-auto px-20 ">
-            <div class="grid mt-20 grid-cols-1 lg:grid-cols-3">
-
-                <div class="flex gap-5  justify-center items-center flex-col">
-                    <div  class="bg-green-100 p-5 max-w-md">
-                        <img src="Images/Group 1.png" alt="">
-                        <p class="text-p-font">Phone Number</p>
-                        <h2 class="font-extrabold">(+88)013125484</h2>
-                    </div>
-                    <div  class="bg-green-100 p-5 max-w-md">
-                        <img src="Images/Group2.png" alt="">
-                        <p class="text-p-font">Email</p>
-                        <h2 class="font-extrabold">info@gmail.com</h2>
-                    </div>
-                    <div class="bg-green-100 p-5 max-w-md">
-                        <img src="Images/Group 3.png" alt="">
-                        <p class="text-p-font">Location</p>
-                        <h2 class="font-extrabold">152/3Dhaka Wireless Gate</h2>
-                    </div><br><br>
                 </div>
-                <div class="lg:col-span-2 ">
-                    <div class="grid gap-3 lg:grid-cols-2 grid-cols-1">
-                       <div>
-                        <label for="" class=" font-extrabold">Your Name</label>
-                        <input type="text" placeholder="Enter Your full Name" class="input input-bordered w-full">
-                       </div>
-                       <div>
-                        <label for=""class=" font-extrabold">Your Email</label>
-                        <input type="email" placeholder="Enter Your Email" class="input input-bordered w-full">
-                       </div>
-                       <div class="mt-2">
-                        <label for="" class=" font-extrabold">Subject</label>
-                        <input type="text" placeholder="Enter Your subject" class="input input-bordered w-full">
-                       </div>
-                       <div class="mt-2">
-                        <label for=""class=" font-extrabold">Phone Number</label>
-                        <input type="number" placeholder="Enter Your Email" class="input input-bordered w-full">
-                       </div>
-                        
-
-                    </div>
-                    <div class="mt-5">
-                        <label for=""class=" font-extrabold">Message</label>
-                        <textarea class="textarea textarea-bordered w-full"rows="5" placeholder="Write your message"></textarea>
-                        <button class="btn text-white w-full mt-5   bg-color">Send Message</button>
-                        
-                    </div>
-                    
-                </div>
-
-              
             </div>
-        </div>
-     </section>
+        </section>
+        <!-- section 10 -->
+        <section>
+            <div>
+                <div class="grid mt-20 grid-cols-1 lg:grid-cols-3">
 
-     <!-- -social media icon -->
-     <section>
-            <div class="container mx-auto px-20 ">
+                    <div class="flex gap-5  justify-center items-center flex-col">
+                        <div class="bg-green-100 p-5 max-w-md">
+                            <img src="Images/Group 1.png" alt="">
+                            <p class="text-p-font">Phone Number</p>
+                            <h2 class="font-extrabold">(+88)013125484</h2>
+                        </div>
+                        <div class="bg-green-100 p-5 max-w-md">
+                            <img src="Images/Group2.png" alt="">
+                            <p class="text-p-font">Email</p>
+                            <h2 class="font-extrabold">info@gmail.com</h2>
+                        </div>
+                        <div class="bg-green-100 p-5 max-w-md">
+                            <img src="Images/Group 3.png" alt="">
+                            <p class="text-p-font">Location</p>
+                            <h2 class="font-extrabold">152/3Dhaka Wireless Gate</h2>
+                        </div><br><br>
+                    </div>
+                    <div class="lg:col-span-2 ">
+                        <div class="grid gap-3 lg:grid-cols-2 grid-cols-1">
+                            <div>
+                                <label for="" class=" font-extrabold">Your Name</label>
+                                <input type="text" placeholder="Enter Your full Name"
+                                    class="input input-bordered w-full">
+                            </div>
+                            <div>
+                                <label for="" class=" font-extrabold">Your Email</label>
+                                <input type="email" placeholder="Enter Your Email" class="input input-bordered w-full">
+                            </div>
+                            <div class="mt-2">
+                                <label for="" class=" font-extrabold">Subject</label>
+                                <input type="text" placeholder="Enter Your subject" class="input input-bordered w-full">
+                            </div>
+                            <div class="mt-2">
+                                <label for="" class=" font-extrabold">Phone Number</label>
+                                <input type="number" placeholder="Enter Your Email" class="input input-bordered w-full">
+                            </div>
+
+
+                        </div>
+                        <div class="mt-5">
+                            <label for="" class=" font-extrabold">Message</label>
+                            <textarea class="textarea textarea-bordered w-full" rows="5"
+                                placeholder="Write your message"></textarea>
+                            <button class="btn text-white w-full mt-5   bg-color">Send Message</button>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- -social media icon -->
+        <section>
+            <div>
                 <div class="mx-auto mt-20  text-center">
                     <h2 class="text-base font-extrabold">Social Media</h2>
                     <div>
@@ -581,51 +735,52 @@
                 </div>
 
             </div>
-     </section>
-        
-   </main>
+        </section>
+
+    </main>
     <!-- Footer--->
     <section>
-        <div class="container ">
+        <div>
             <footer class="footer p-10 bg-bg-color  text-white">
                 <aside>
-                <h1 class="text-3xl mb-2">Get In Touch</h1>
-                <p class="w-1/3"> Certainly! If you're looking for a concise and casual phrase for a "Get In Touch" section, you can use:</p>
-                <div class="">
-                    <div class="flex gap-2">
-                       <div class="text-red-500"> <a href=""><i class="fa-solid fa-envelope "></i></a></div>
-                        <h4>siddikur22@gmail.com</h4>
+                    <h1 class="text-3xl mb-2">Get In Touch</h1>
+                    <p class="w-1/3"> Certainly! If you're looking for a concise and casual phrase for a "Get In Touch"
+                        section, you can use:</p>
+                    <div class="">
+                        <div class="flex gap-2">
+                            <div class="text-red-500"> <a href=""><i class="fa-solid fa-envelope "></i></a></div>
+                            <h4>siddikur22@gmail.com</h4>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="text-red-500"><a href=""><i class="fa-solid fa-phone"></i></a></div>
+                            <h4>(+880)131218200</h4>
+                        </div>
+
                     </div>
-                    <div class="flex gap-2">
-                       <div  class="text-red-500"><a href=""><i class="fa-solid fa-phone"></i></a></div>
-                        <h4>(+880)131218200</h4>
-                    </div>
-                    
-                </div>
-                </aside> 
+                </aside>
                 <nav>
-                  <header class="footer-title">Services</header> 
-                  <a class="link link-hover">Branding</a>
-                  <a class="link link-hover">Design</a>
-                  <a class="link link-hover">Marketing</a>
-                  <a class="link link-hover">Advertisement</a>
-                </nav> 
-                <nav>
-                  <header class="footer-title">Company</header> 
-                  <a class="link link-hover">About us</a>
-                  <a class="link link-hover">Contact</a>
-                  <a class="link link-hover">Jobs</a>
-                  <a class="link link-hover">Press kit</a>
-                </nav> 
-                <nav>
-                  <header class="footer-title">Legal</header> 
-                  <a class="link link-hover">Terms of use</a>
-                  <a class="link link-hover">Privacy policy</a>
-                  <a class="link link-hover">Cookie policy</a>
+                    <header class="footer-title">Services</header>
+                    <a class="link link-hover">Branding</a>
+                    <a class="link link-hover">Design</a>
+                    <a class="link link-hover">Marketing</a>
+                    <a class="link link-hover">Advertisement</a>
                 </nav>
-              </footer>
+                <nav>
+                    <header class="footer-title">Company</header>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                    <header class="footer-title">Legal</header>
+                    <a class="link link-hover">Terms of use</a>
+                    <a class="link link-hover">Privacy policy</a>
+                    <a class="link link-hover">Cookie policy</a>
+                </nav>
+            </footer>
         </div>
-      </section>
+    </section>
 </body>
 
 </html>
